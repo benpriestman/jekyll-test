@@ -1,2 +1,6 @@
 # ruby gems
 vendor/
+
+# Jekyll
+.jekyll-cache/
+_site/
