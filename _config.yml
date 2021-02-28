@@ -1,11 +1,10 @@
-collections:
-  authors:
-    output: true
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+site: "https://benpriestman.github.io"
+baseurl: "/jekyll-test"
 
 defaults:
   - scope:
@@ -22,3 +21,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+collections:
+  authors:
+    output: true
